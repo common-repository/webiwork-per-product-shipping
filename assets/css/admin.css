@@ -1,0 +1,89 @@
+#woocommerce-product-data .bswspp_per_product_shipping_rules {
+    padding: 0 9px 9px;
+    display: none;
+    overflow: auto
+}
+
+#copy_from_product_id {
+    display: none;
+}
+
+#woocommerce-product-data .bswspp_per_product_shipping_rules td input {
+    width: 100%;
+    min-width: 0 !important;
+    padding: 4px 7px;
+    margin: 0;
+    border: 0;
+    background: transparent none
+}
+
+#woocommerce-product-data .bswspp_per_product_shipping_rules .cost,
+#woocommerce-product-data .bswspp_per_product_shipping_rules .cost input,
+#woocommerce-product-data .bswspp_per_product_shipping_rules .item_cost,
+#woocommerce-product-data .bswspp_per_product_shipping_rules .item_cost input {
+    text-align: right
+}
+
+#woocommerce-product-data .bswspp_per_product_shipping_rules td {
+    padding: 0;
+    width: auto !important;
+    border-right: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+    border-top: 0;
+    background: #fff
+}
+
+#woocommerce-product-data .bswspp_per_product_shipping_rules .sort {
+    width: 16px !important;
+    cursor: move;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAHUlEQVQYV2O8f//+fwY8gJGgAny6QXKETRgEVgAAXxAVsa5Xr3QAAAAASUVORK5CYII=) no-repeat center
+}
+
+.bswspp_per_product_shipping_rules.inn_wrap .widefat tfoot tr th a.button {
+    border-color: #022a54;
+}
+
+.bswspp_per_product_shipping_rules.inn_wrap .widefat tfoot tr th a.button:hover {
+    border-color: #022a54;
+}
+
+.bswspp_per_product_shipping_rules.inn_wrap .widefat tfoot tr th a.button:focus,
+.bswspp_per_product_shipping_rules.inn_wrap .widefat tfoot tr th a.button:active {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(151, 86, 139, 0);
+}
+
+.bswspp_per_product_shipping_rules.inn_wrap .widefat tfoot tr th a.button.button-primary {
+    background: #022a54;
+    color: #fff;
+}
+
+.bswspp_per_product_shipping_rules.inn_wrap .widefat tfoot tr th a.button.remove {
+    color: #022a54;
+}
+
+.bswspp_per_product_shipping_rules.inn_wrap .widefat tfoot tr th a.button.copy {
+    color: #143f05;
+    border-color: #143f05;
+}
+
+.bswspp_per_product_shipping_rules.inn_wrap .widefat thead tr th a {
+    color: #fff;
+}
+
+input.product-id-input-for-copy {
+    min-width: 0 !important;
+    padding: 1px 7px !important;
+    margin: 0 !important;
+    background: transparent none;
+}
+
+.bswspp_per_product_shipping_rules.inn_wrap .widefat thead {
+    background: #022a54;
+}
+
+.bswspp_per_product_shipping_rules.inn_wrap .widefat thead tr th {
+    color: #fff;
+    font-style: italic;
+    letter-spacing: .3px;
+}
